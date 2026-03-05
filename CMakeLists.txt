@@ -27,6 +27,9 @@ set(PROJECT_SOURCES
         task7.cpp
         task8.cpp
         task9.cpp
+        task10.cpp
+        task11.cpp
+        task12.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -43,6 +46,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         task7.cpp
         task8.cpp
         task9.cpp
+        task10.cpp
+        task11.cpp
+        task12.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET kr_aisd APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

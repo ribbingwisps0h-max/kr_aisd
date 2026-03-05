@@ -27,11 +27,19 @@ private slots:
     void runTask7();
     void runTask8();
     void runTask9();
+    void runTask10();
+    void runTask11();
+    void runTask12();
 
 private:
     Ui::MainWindow *ui;
     double getAvgDigits(int n);
     long long toDecimal(QString num, int base);
     QString fromDecimal(long long num, int base);
+    int sumOfDigits(long long n);
+    bool isPrime(int n);
+    bool isDigitsDescending(int n);
+    bool isPalindrome(int n);
+    int getDigitSum(int n);
 };
 #endif // MAINWINDOW_H

@@ -19,6 +19,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->btnCalcTask7, &QPushButton::clicked, this, &MainWindow::runTask7);
     connect(ui->btnCalcTask8, &QPushButton::clicked, this, &MainWindow::runTask8);
     connect(ui->btnCalcTask9, &QPushButton::clicked, this, &MainWindow::runTask9);
+    connect(ui->btnCalcTask10, &QPushButton::clicked, this, &MainWindow::runTask10);
+    connect(ui->btnCalcTask11, &QPushButton::clicked, this, &MainWindow::runTask11);
+    connect(ui->btnSortTask12, &QPushButton::clicked, this, &MainWindow::runTask12);
     // Устанавливаем начальный выбор на первую задачу
     ui->listTasks->setCurrentRow(0);
 }
