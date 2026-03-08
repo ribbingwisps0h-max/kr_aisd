@@ -30,6 +30,12 @@ private slots:
     void runTask10();
     void runTask11();
     void runTask12();
+    void runTask13();
+    void on_btnOpenFile13_clicked();
+    void runTask14();
+    void runTask15();
+    void runTask16();
+    void runTask17();
 
 private:
     Ui::MainWindow *ui;
