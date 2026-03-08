@@ -1,3 +1,7 @@
+/* Krasavtsev A A
+ *
+ *
+ */
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <cmath> // Для функции pow
